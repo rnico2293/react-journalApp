@@ -1,7 +1,6 @@
 import { JournalLayout } from "../layout/JournalLayout";
 import { NothingSelectedView, NoteView } from '../views/index';
-import { Box, Typography, IconButton } from '@mui/material';
-import { red } from "@mui/material/colors";
+import { IconButton } from '@mui/material';
 import { AddOutlined } from "@mui/icons-material";
 
 export const HomePage = () => {
