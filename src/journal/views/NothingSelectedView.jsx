@@ -8,12 +8,12 @@ export const NothingSelectedView = () => {
         spacing= {0}
         alignItems="center"
         justifyContent="center"
-        sx = {{ minHeight:'100vh', backgroundColor:'primary.main', borderRadius: 3 }}
+        sx = {{ minHeight:'180vh', backgroundColor:'primary.main', borderRadius: 3}}
         >
             <Typography variant='h3' sx = {{color: 'white'}} >
                 Selecciona o crea una entrada para el diario.
             </Typography>
-            <Grid item xs={ 12 }> 
+            <Grid item xs={ 5 }> 
                 <StarOutline sx = {{color: 'white', ml: '47%', fontSize: 100}} />
             </Grid>
         </Grid>
